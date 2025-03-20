@@ -9,8 +9,8 @@ I'm currently a freshman studying at HUST.
 • The First Prize of the Group in the Fourth National Intelligent Unmanned Boat Search and Rescue Competition.
 
 #### Interests and Hobbies
-• Listening to music
-• Traveling 
-• Extreme sports
-• Reading
+• Listening to music<br>
+• Traveling <br>
+• Extreme sports<br>
+• Reading<br>
 • Playing games
