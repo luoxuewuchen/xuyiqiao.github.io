@@ -1,6 +1,5 @@
 <body>
-  <script type="text/javascript">
-
+    <script type="text/javascript">
   date=new Date();
     year=date.getFullYear();
      month=date.getMonth()+1;
@@ -9,6 +8,11 @@
      minute=date.getMinutes();
      second=date.getSeconds();
     document.write(year+'-'+month+'-'+day+' '+hour+':'+minute+':'+second);
-    
-  </script>
+    document.write('<br><button onclick="changeBackgroundColor()">改变背景颜色</button>');
+            function changeBackgroundColor() {
+            var colors = ["#FFCCCC", "#CCFFCC", "#CCCCFF", "#FFFFCC", "#FFCCFF", "#CCFFFF"];
+            var randomColor = colors[Math.floor(Math.random() * colors.length)];
+            document.body.style.backgroundColor = randomColor;
+        }
+   </script>
 </body>
